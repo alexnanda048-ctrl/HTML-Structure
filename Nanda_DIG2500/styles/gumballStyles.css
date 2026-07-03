@@ -1,0 +1,46 @@
+body {
+    background-image: url(../content/sky.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+
+
+p {
+    font-family: verdana;
+    text-align: center;
+}
+
+a{
+  display: block;
+  text-align: left;
+}
+
+
+
+img {
+  display: block;
+  margin: auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
