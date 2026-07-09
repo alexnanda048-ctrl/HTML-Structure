@@ -5,10 +5,16 @@ body {
     background-size: 100% 100%;
     background-position: center;
 }
+header {
+    background-color: #D9F4FC;
+    padding: 10px;
+    text-align: center;
+}
 
 h1 {
-  color: black;
-  text-align: center;
+    color: black;
+    text-align: center;
+    font-size: 3.0rem;
 }
 
 
@@ -16,12 +22,32 @@ h1 {
 p {
     font-family: verdana;
     text-align: center;
+    font-size: 1.08rem;
 }
 
 a{
   display: block;
   text-align: left;
 }
+
+    a:link {
+        text-decoration: none;
+        color: red;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: purple;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: hotpink;
+    }
+
+    a:active {
+        text-decoration: underline;
+    }
 
 
 
@@ -31,6 +57,13 @@ img {
 }
 * {
     box-sizing: border-box;
+}
+
+.card {
+    background-color: #D9F4FC;
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 10px;
 }
 
 .column {
